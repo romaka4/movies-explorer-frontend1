@@ -1,0 +1,37 @@
+.header{
+  display: flex;
+  align-items: center;
+  background: #465DFF;
+  flex-direction: column;
+}
+.header_auth {
+  background: #FFFFFF;
+}
+.header__navigate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 74px;
+  width: calc(100% - 140px);
+}
+.header__logo {
+  height: 38px;
+  width: 38px;
+  margin-right: 63px;
+  cursor: pointer;
+}
+.header__logo:hover{
+  opacity: 80%;
+  transition: 0.3s;
+}
+
+@media screen and (max-width: 769px) {
+  .header__navigate{
+    width: calc(100% - 60px);
+  }
+}
+@media screen and (max-width: 321px) {
+  .header__navigate{
+    width: calc(100% - 28px);
+  }
+}

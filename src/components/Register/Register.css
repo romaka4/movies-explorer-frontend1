@@ -1,0 +1,166 @@
+.auth{
+  background: #FFFFFF;
+  display: flex;
+  align-items: center;
+  padding: 70px 0;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.auth__form{
+  width: 396px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.auth__header{
+  width: 396px;
+}
+.auth__title{
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0em;
+  margin: 37px 0px 40px;
+}
+.form__label {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #A0A0A0;
+  margin-bottom: 10px;
+}
+.auth__input{
+  box-sizing: border-box;
+  width: 100%;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  background: #F9F9F9;
+  border-radius: 8px;
+  border: none;
+  padding: 15px;
+  margin: 0 0 8px;
+}
+.auth__submit{
+  width: 100%;
+  background: #FF6838;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+  padding: 0;
+  border-radius: 3px;
+  border: none;
+  padding: 13px 0 15px;
+  margin-top: 70px;
+}
+
+.auth__register-signin{
+  margin-top: 16px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+}
+.register__question{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  color: #A0A0A0;
+  margin: 0;
+}
+.auth__signin-link{
+ text-decoration: none;
+ color: #FF6838;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+.auth__signin-link:hover,
+.auth__submit:hover{
+  opacity: 80%;
+  transition: 0.3s;
+}
+.error__input{
+  height: 12px;
+  width: 100%;
+}
+.error__message{
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #EE3465;
+  margin: 0;
+}
+.login__submit{
+  margin-top: 157px;
+}
+.register__question{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+@media screen and (max-width: 769px) {
+  .auth{
+    padding: 232px 0;
+  }
+}
+@media screen and (max-width: 500px) {
+  .auth__form{
+    width: 320px;
+  }
+  .auth__header{
+    width: 320px;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .auth{
+    padding: 56px 0 30px;
+  }
+  .auth__form{
+    width: calc(320px - 60px);
+    margin: 0 auto;
+  }
+  .auth__header{
+    width: calc(320px - 60px);
+    margin: 0 auto;
+    text-align: center;
+  }
+  .header__logo{
+    margin: 0;
+  }
+  .auth__title{
+    margin: 47px 0 80px;
+  }
+  .auth__submit{
+    margin-top: 157px;
+  }
+  .auth__submit,
+  .register__question,
+  .auth__signin-link
+  {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  .login__submit{
+    margin-top: 245px;
+  }
+}

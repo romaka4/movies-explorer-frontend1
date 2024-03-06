@@ -1,0 +1,56 @@
+.auth-nav{
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.auth-nav__register{
+  background-color: inherit;
+  border: none;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 8px 20px;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0px;
+  cursor: pointer;
+}
+.auth-nav__authorize{
+  background-color: #2BE080;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 3px;
+  margin: 0;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0px;
+  cursor: pointer;
+  
+}
+.auth-nav__authorize:hover,
+.auth-nav__register:hover {
+  opacity: 80%;
+  transition: 0.3s;
+}
+@media all and (max-width: 321px){
+  .auth-nav__authorize{
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0px;
+    padding: 5px 12px;
+  }
+  .auth-nav__register{
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0px;
+    padding: 5px 4px;
+  }
+}
